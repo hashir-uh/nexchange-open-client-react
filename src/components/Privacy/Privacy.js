@@ -234,9 +234,9 @@ const Privacy = props => {
 
                 <p>
                   If you have a complaint regarding “YOA LTD.” compliance with the U.S.-EU Safe Harbor Framework or the U.S.-Swiss Safe
-                  Harbor Framework, first contact us through support at support@n.exchange. “YOA LTD.” has elected to use JAMS arbitration
-                  as an independent recourse mechanism available to settle unresolved complaints regarding “YOA LTD.” Safe Harbor
-                  commitments. Please refer to the section titled “Applicable Law; Arbitration” in our Terms of Service
+                  Harbor Framework, first contact us through support at support@alfie.exchange. “YOA LTD.” has elected to use JAMS
+                  arbitration as an independent recourse mechanism available to settle unresolved complaints regarding “YOA LTD.” Safe
+                  Harbor commitments. Please refer to the section titled “Applicable Law; Arbitration” in our Terms of Service
                   /en/articles/legal_privacy
                 </p>
               </Trans>
@@ -246,15 +246,15 @@ const Privacy = props => {
 
                 <p>
                   Account Information: You may access and review or update your online account information at any time by logging into your
-                  account and viewing your profile. If you want to close your account, please contact us at support@n.exchange. However,
+                  account and viewing your profile. If you want to close your account, please contact us at support@alfie.exchange. However,
                   please note that if you close your account, we may retain your information as required by law or for our legitimate
                   business purposes, such as to collect fees owed, resolve disputes, troubleshoot problems, assist with any investigations,
                   prevent fraud or enforce our user agreements.
                 </p>
 
                 <p>
-                  Communications Preferences: You may opt out of receiving promotional communications from “YOA LTD.” by following the
-                  instructions in those communications. You may also opt out of receiving the N.exchange newsletter or certain
+                  Communications Preferences: You may opt out of receiving promotional communications from “Orangutan Group limited.” by
+                  following the instructions in those communications. You may also opt out of receiving the N.exchange newsletter or certain
                   administrative emails by modifying your communications preferences through the settings feature of your online account. If
                   you opt out of receiving promotional communications, we may still send you transactional or relationship messages, such as
                   those about your account or our ongoing business relations.
@@ -274,7 +274,8 @@ const Privacy = props => {
                   add-on permits, but choosing to remove or disable our cookies may interfere with your use and functionality of the “YOA
                   LTD.” Services. Additionally, we may use certain persistent cookies that are not affected by your browser settings, but
                   will use such cookies solely for identity verification and fraud prevention purposes. For more information about cookies
-                  and how to block, delete or disable them, please refer to your browser instructions, or contact us at support@n.exchange.
+                  and how to block, delete or disable them, please refer to your browser instructions, or contact us at
+                  support@alfie.exchange.
                 </p>
               </Trans>
 
@@ -297,8 +298,8 @@ const Privacy = props => {
               <Trans i18nKey="privacy.contact">
                 <h2>Contact us</h2>
                 <p>
-                  If you have any questions or concerns regarding this Privacy Policy, please contact us at{' '}
-                  <a href="mailto:support@n.exchange">support@n.exchange</a>.
+                  If you have any questions or concerns regarding this Privacy Policy, please contact us at
+                  <a href="mailto:support@alfie.exchange">support@alfie.exchange</a>.
                 </p>
               </Trans>
             </div>

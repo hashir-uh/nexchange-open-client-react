@@ -44,7 +44,7 @@ class PriceComparison extends Component {
 
     let imgUrl = `/img/prices/${info[idx]}.png`;
     if (info[idx] === 'nexchange') {
-      imgUrl = '/img/prices/logo-icon.svg';
+      imgUrl = '/img/prices/leaflogo.jpg';
     }
 
     return <img className={`${info[idx]}-logo`} src={imgUrl} alt={`${info[idx]}`} />;
@@ -168,7 +168,7 @@ class PriceComparison extends Component {
                     <tr>
                       <th className="text-center" />
                       <th>
-                        <img className="nexchange-logo" src="/img/prices/logo-icon.svg" alt="N.exchange" />
+                        <img className="nexchange-logo" src="/img/prices/leaflogo.jpg" alt="Alfie.exchange" />
                       </th>
                       <th>
                         <img src="/img/prices/shapeshift.png" alt="Shapeshift" />

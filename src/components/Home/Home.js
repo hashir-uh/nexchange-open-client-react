@@ -28,7 +28,7 @@ export class Home extends Component {
 
   render() {
     return (
-      <div>
+      <div style={{backgroundColor:'#F0F3F5'}}>
         <Hero {...this.props} />
         <RecentOrders />
         <ICO />

@@ -157,11 +157,23 @@
   }
 }
 
+@font-face {
+  font-family: 'AG Stencil';
+  font-style: normal;
+  font-weight: normal;
+  src: local('AG Stencil'), url('../../fonts/AG-Stencil.woff') format('woff');
+  }
+
 .logo-container {
-  margin: 2px 0 0 0;
+  // margin: 2px 0 0 0;
   overflow: hidden;
 
   img {
     width: 195px;
   }
+}
+.TitleFont{
+  font-size: 58px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  letter-spacing: 3px;
 }

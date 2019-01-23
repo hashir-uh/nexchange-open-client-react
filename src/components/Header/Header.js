@@ -49,9 +49,11 @@ class Header extends Component {
                 <Link to="/">
                   <div className={styles['logo-container']}>
                     {window.location.pathname === '/' ? (
-                      <img src="/img/logo-white.svg" alt="Logo" data-test="logo" />
+                      // <img src="/img/logo-white.svg" alt="Logo" data-test="logo" />
+                      <p className={styles.TitleFont}><strong>A</strong>lfie</p>
                     ) : (
-                      <img src="/img/logo.svg" alt="Logo" data-test="logo" />
+                      <p className={styles.TitleFont}>Alfie</p>
+                      // <img src="/img/logo.svg" alt="Logo" data-test="logo" />
                     )}
                   </div>
                 </Link>
@@ -79,7 +81,7 @@ class Header extends Component {
                     </a>
                   </li>
 
-                  <li>
+                  {/* <li>
                     <a
                       className={`${styles.link} hidden-sm`}
                       href="http://docs.nexchange2.apiary.io/"
@@ -90,7 +92,7 @@ class Header extends Component {
                     >
                       {t('header.apidocs')}
                     </a>
-                  </li>
+                  </li> */}
 
                   <li>
                     <a className={styles.link} href="/#compare" data-test="compare-link">

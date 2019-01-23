@@ -35,17 +35,15 @@ class FAQ extends Component {
                     <Trans i18nKey="faq.ans1">
                       <div>
                         <p>
-                          N.exchange is an automated cryptocurrency exchange service, operated by
+                          Alfie exchange is an automated cryptocurrency exchange service, operated by
                           <a href="https://beta.companieshouse.gov.uk/company/10009845" target="_blank" rel="noopener noreferrer">
-                            YOA LTD. (registered company No. 10009845)
-                          </a>.
+                            Orangutan Group limited
+                          </a>
+                          .
                         </p>
+                        <p>Our registered office address - Broadacre House, Ne1 6hq, Tyne and Wear, United Kingdom.</p>
                         <p>
-                          Our VAT number - GB233 5420 37.<br />Our registered office address - Suite 11, Penhurst House, 352-254 Battersea
-                          Park Road, London, England, SW11 3BY.
-                        </p>
-                        <p>
-                          Our customer support phone number in UK is <a href="tel:+442081442192">+442081442192</a>.
+                          Our customer support phone number in UK is <a href="tel:+443301331287">+443301331287</a>.
                         </p>
                       </div>
                     </Trans>
@@ -63,7 +61,7 @@ class FAQ extends Component {
                         </p>
                         <p>We will be adding more currencies very soon, stay tuned!</p>
                         <p>
-                          Missing your favorite coin? Let us know here: <a href="mailto:support@n.exchange">support@n.exchange</a>.
+                          Missing your favorite coin? Let us know here: <a href="mailto:support@alfie.exchange">ssupport@alfie.exchange</a>.
                         </p>
                       </Trans>
                     </div>

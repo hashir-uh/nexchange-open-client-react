@@ -42,18 +42,24 @@ ReactDOM.render(
       <div>
         <Referrals />
         <Header />
-
-        <Switch>
-          <Route exact path="/terms-and-conditions" component={TermsConditions} />
-          <Route exact path="/privacy" component={Privacy} />
-          <Route exact path="/order/:orderRef" component={Order} />
-          <Route exact path="/" render={props => <Home {...props} store={store} />} /> />
+        <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif" rel="stylesheet"></link>
+        <link href="https://fonts.googleapis.com/css?family=Aclonica" rel="stylesheet"></link>
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet"></link>
+        <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css?family=Eczar" rel="stylesheet"></link>
+        <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet"/>
+          <Switch>
+            <Route exact path="/terms-and-conditions" component={TermsConditions} />
+            <Route exact path="/privacy" component={Privacy} />
+            <Route exact path="/order/:orderRef" component={Order} />
+            <Route exact path="/" render={props => <Home {...props} store={store} />} /> />
           <Route component={NotFound} />
-        </Switch>
+          </Switch>
 
-        <Footer />
+          <Footer />
       </div>
     </BrowserRouter>
   </Provider>,
-  document.getElementById('root')
-);
+    document.getElementById('root')
+  );

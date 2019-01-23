@@ -102,15 +102,15 @@ class Support extends Component {
                   <div className="col-xs-12 col-sm-6">
                     <h3>{t('support.2')}</h3>
                     <p onClick={() => ga('send', 'event', 'General', 'click support number')}>
-                      +442081442192<br />
-                      +16464612858 (US)
+                      +443301331287
+                    
                     </p>
                   </div>
 
                   <div className="col-xs-12 col-sm-6">
                     <h3>{t('support.3')}</h3>
                     <p>
-                      <a href="mailto:support@n.exchange">support@n.exchange</a>
+                      <a href="mailto:support@alfie.exchange">support@alfie.exchange</a>
                     </p>
                   </div>
                 </div>

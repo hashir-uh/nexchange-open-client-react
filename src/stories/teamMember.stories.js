@@ -13,8 +13,8 @@ storiesOf('Team', module)
   ))
   .add('member', () => (
     <TeamMember
-      id="oleg"
-      name="Oleg Belousov"
+      id="phil_orig"
+      name="phil_orig"
       country="IL"
       fullCountryName="Israel"
       description="Multidisciplinary coder. Aspiring innovator with a deep passion
